@@ -1,0 +1,67 @@
+@font-face {
+    font-family: nino;
+    src: url(font/bpg_extrasquare_mtavruli_2009.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-bar{
+    background:linear-gradient(45deg,#090909, #243b55, #cd77f5, #d65793);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.nav-link{
+    font-size: 16px !important;
+    margin: 0 20px;
+    color: #fff!important;
+    font-weight: 500;
+    font-family: 'nino';
+    transition: 0.3s;
+}
+.active{
+    color: rgb(12, 216, 206) !important;
+}
+.chamos{
+    font-size: 16px !important;
+    color: #fff !important;
+    font-weight: 500;
+    font-family: 'nino';
+}
+.navbar-nav{
+    text-align: right;
+    margin-right: 20px;
+}
+.menu-bar .navbar-toggler{
+    padding-right: 15px;
+    outline:none!important;
+    border:none!important;
+}
+.navbar .fa{
+    color: rgb(245, 241, 242) !important;
+    font-size: 25px;
+}
+.rest-logo{
+    color: #fff !important;
+    font-size: 26px !important;
+    margin-left: 20px;
+    transition: 0.6s;
+}
+
+.nav-link:hover{
+    color: cyan !important;
+}
+
